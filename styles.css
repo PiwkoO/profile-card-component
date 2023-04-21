@@ -58,6 +58,7 @@ body::after {
   border-radius: 15px;
   min-width: 260px;
   background-color: var(--white);
+  box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 0.504835);
   overflow: hidden;
   z-index: 1;
 }
@@ -144,6 +145,10 @@ body::after {
 
   body::after {
     transform: translate(45%, 65%);
+  }
+
+  .profile-card {
+    min-width: 350px;
   }
 }
 
